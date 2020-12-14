@@ -1,0 +1,3 @@
+[submodule "booking-flights"]
+	path = booking-flights
+	url = https://github.com/mnti124/booking-flights.git
