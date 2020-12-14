@@ -1,0 +1,3 @@
+const secretkey = 'sk_test_51HpGlBJlh5CZAQrwxwVGlFfPkErUvBHzrmGD5lOev8VnTe65tusCHL9SBY5ekgwqXDr1E822OixbBjd3ENFrCTr400cRIMzEYa';
+
+module.exports = secretkey;
