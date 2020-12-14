@@ -73,6 +73,12 @@ app.post('/payment', async(req,res)=>{
    
 })
 
+// The "catchall" handler: for any request that doesn't
+// match one above, send back React's index.html file.
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname+'/webapp/build/index.html'));
+  });
+
 const port = process.env.NODE_ENV || 8080;
 
 app.listen(port, function(){
